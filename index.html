@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Hesap oluştur</h1>
+                <span>Kayıt olmak için E-postanızı kullanın </span>
+                <input type="text" placeholder="İsim">
+                <input type="email" placeholder="E-Posta">
+                <input type="password" placeholder="Şifre">
+                <button>Üye Ol</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Giriş Yap</h1>
+                <span>E-posta Ve Şifrenizi Kullanın</span>
+                <input type="E-posta" placeholder="E-Posta">
+                <input type="Şifre" placeholder="Şifre">
+                <a href="#">Şifrenizi unuttuysanız buraya tıklayın.</a>
+                <button>Giriş Yap</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Tekrar Hoşgeldin!</h1>
+                    <p>Tüm site özelliklerini kullanmak için kişisel bilgilerinizle Giriş Yap</p>
+                    <button class="hidden" id="login">Giriş yap</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Merhaba!</h1>
+                    <p>Tüm site özelliklerini kullanmak için kişisel bilgilerinizle kaydolun</p>
+                    <button class="hidden" id="register">Üye Ol</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
